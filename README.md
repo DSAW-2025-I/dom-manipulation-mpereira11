@@ -56,5 +56,7 @@ El objetivo de este taller es hacer que el carrusel que desarrolles se vea corre
 
 ## Entrega Trabajo
 **Nombre:** Martin Ignacio Pereira Alcalde
+
 **Codigo:** 320193
+
 **Link:** https://dsaw-2025-i.github.io/dom-manipulation-mpereira11/
