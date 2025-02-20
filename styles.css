@@ -1,5 +1,5 @@
 body {
-  background-color:  #E1D9C1;
+  background-color: #E1D9C1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +31,6 @@ div.carrusel-buttons {
   margin-bottom: 10px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
 }
 
 button.ant, button.sig {
@@ -55,6 +54,17 @@ button.sig {
 img {
   max-width: 100%;
   max-height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+img.active {
+  opacity: 1;
+  position: relative;
 }
 
 .img-grande {
