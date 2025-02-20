@@ -6,7 +6,10 @@ const images = document.querySelectorAll('.img');
 
 function updateCarrusel() {
   images.forEach((img, i) => {
-    img.style.display = (i + 1 === contador) ? 'block' : 'none';
+    img.classList.remove('active');
+    if (i + 1 === contador) {
+      img.classList.add('active');
+    }
   });
 }
 
